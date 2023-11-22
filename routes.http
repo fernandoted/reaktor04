@@ -2,9 +2,9 @@ POST http://localhost:3333/survival-guide-store
 Content-Type: application/json
 
 {
-	"title": "anti-radiation pills",
-	"description": "To prevent your body absorbing radiation",
-	"price": "$8"
+	"title": "survival guide book",
+	"description": "We hope you never need...   But, if for any reason you face the Chernobyl Residential Building, at Campeche, Brazil, this guide is the only chance to survive",
+	"price": "$15"
 }
 
 ###
@@ -13,7 +13,7 @@ GET http://localhost:3333/survival-guide-store
 
 ###
 
-PUT http://localhost:3333/survival-guide-store/814759bd-14c4-4769-92d2-f395665e6790
+PUT http://localhost:3333/survival-guide-store/
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/survival-guide-store/814759bd-14c4-4769-92d2-f395665e6790
+DELETE http://localhost:3333/survival-guide-store/
