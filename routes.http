@@ -1,0 +1,27 @@
+POST http://localhost:3333/survival-guide-store
+Content-Type: application/json
+
+{
+	"title": "anti-radiation pills",
+	"description": "To prevent your body absorbing radiation",
+	"price": "$8"
+}
+
+###
+
+GET http://localhost:3333/survival-guide-store
+
+###
+
+PUT http://localhost:3333/survival-guide-store/814759bd-14c4-4769-92d2-f395665e6790
+Content-Type: application/json
+
+{
+	"title": "title test",
+	"description": "This item might be you scared. But it is only necessary in extremely conditions. the instructions about when and how to use is on the survival guide book.",
+	"price": "$600"
+}
+
+###
+
+DELETE http://localhost:3333/survival-guide-store/814759bd-14c4-4769-92d2-f395665e6790
